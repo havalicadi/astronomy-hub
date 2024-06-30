@@ -8,8 +8,11 @@ h1 {
   color: #0a1128;
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
 }
 strong {
   color: #034078;
+}
+h2 {
+  font-size: 32px;
 }
