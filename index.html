@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
+    <div class="container">
     <section>
       <h1>Astronomy Hub - Explore the cosmos with us</h1>
       <p>
@@ -35,7 +36,7 @@
         <li>
           <p>Mercury</p>
           <img
-            src="assets/mercury-true-color.jpg"
+            src="assets/img/mercury/mercury-mini.jpg"
             alt="Mercury"
             width="75"
             height="75"
@@ -43,36 +44,36 @@
         </li>
         <li>
           <p>Venus</p>
-          <img src="assets/Venus.jpg" alt="Venus" height="75" width="75" />
+          <img src="assets/img/venus/venus-mini.jpg" alt="Venus" height="75" width="75" />
         </li>
         <li>
           <p>Earth</p>
-          <img src="assets/Earth.jpg" alt="Earth" height="75" width="75" />
+          <img src="assets/img/earth/earth-mini.jpg" alt="Earth" height="75" width="75" />
         </li>
         <li>
           <p>Mars</p>
-          <img src="assets/Mars.jpg" alt="Mars" height="75" width="75" />
+          <img src="assets/img/mars/mars-mini.jpg" alt="Mars" height="75" width="75" />
         </li>
         <li>
           <p>Jupiter</p>
-          <img src="assets/Jupiter.jpg" alt="Jupiter" height="75" width="75" />
+          <img src="assets/img/jupiter/jupiter-mini.jpg" alt="Jupiter" height="75" width="75" />
         </li>
         <li>
           <p>Saturn</p>
-          <img src="assets/Saturn.jpg" alt="Saturn" height="75" width="100"
+          <img src="assets/img/saturn/saturn-mini.jpg" alt="Saturn" height="75" width="100">
         </li>
         <li>
           <p>Uranus</p>
-          <img src="assets/Uranus.jpg" alt="Uranus" height="75" width="75" />
+          <img src="assets/img/uranus/uranus-mini.jpg" alt="Uranus" height="75" width="75" />
         </li>
         <li>
           <p>Neptune</p>
-          <img src="assets/Neptune.jpg" alt="Neptune" height="75" width="75" />
+          <img src="assets/img/neptune/neptune-mini.jpg" alt="Neptune" height="75" width="75" />
         </li>
       </ol>
     </section>
-    <section>
-      <h2>Mercury</h2>
+    <section class="mercury-section">
+      <h2 class="mercury-title">Mercury</h2>
       <p>
         Mercury, the <b>smallest</b> planet in our solar system with a diameter
         of about 4,880 kilometers (3,032 miles), is the closest to the Sun,
@@ -90,7 +91,7 @@
         Caloris Basin.
       </p>
       <img
-        src="assets/mercurysliced.png"
+        src="assets/img/mercury/mecury.png"
         alt="Mercury structure"
         height="400"
         width="400"
@@ -106,8 +107,8 @@
         >
       </p>
     </section>
-    <section>
-      <h2>Venus</h2>
+    <section class="venus-section">
+      <h2 class="venus-title">Venus</h2>
       <p>
         Venus, often called Earth's <b>"sister planet,"</b> is similar in size
         to Earth, with a diameter of about <em>12,104</em> kilometers (7,521
@@ -127,12 +128,14 @@
         <b>225 Earth days.</b> Its surface is rocky and cratered, similar to
         Earth's Moon, with volcanic features and vast plains.
       </p>
-      <img
-        src="assets/venussliced.jpg"
-        alt="venus sliced"
+      <div class="planet-img-wrapper">
+      <img class="planet-img"
+        src="assets/img/venus/venus.png"
+        alt="venus"
         width="650"
         height="300"
       />
+    </div>
       <p>
         Venus has <b>no moons</b> and lacks a magnetic field comparable to
         Earth's.
@@ -143,8 +146,8 @@
         >
       </p>
     </section>
-    <section>
-      <h2>Earth</h2>
+    <section class="earth-section">
+      <h2 class="earth-title">Earth</h2>
       <p>
         Earth, approximately <b>4.54 billion years old</b>, has a diameter of
         about <em>12,742</em> kilometers (7,918 miles) and a circumference of
@@ -168,12 +171,12 @@
         rotates on its axis every 24 hours, giving us day and night, and orbits
         the Sun every <em>365.25 days</em>, defining a year.
       </p>
-      <img
-        src="assets/Earth sliced.jpg"
-        alt="Earth Planet sliced"
-        width="500"
-        height="500"
+      <div class="planet-img-wrapper">
+      <img class="planet-img"
+        src="assets/img/earth/earth.png"
+        alt="Earth Planet"
       />
+    </div>
       <p>
         Earth's axial tilt of approximately <em>23.5</em> degrees causes
         seasonal changes as different parts of the planet receive varying
@@ -182,8 +185,8 @@
         essential for life.
       </p>
     </section>
-    <section>
-      <h2>Mars</h2>
+    <section class="mars-section">
+      <h2 class="mars-title">Mars</h2>
       <p>
         Mars, known as the "<b>Red Planet</b>," is the fourth planet from the
         Sun and has a diameter of about <em>6,779</em> kilometers (4,212 miles),
@@ -205,12 +208,14 @@
         possibility it could have supported microbial life. Mars has two small
         moons, <b>Phobos and Deimos</b>, believed to be captured asteroids.
       </p>
-      <img
-        src="assets/marssliced.jpg"
+     <div class="planet-img-wrapper">
+      <img class="planet-img"
+        src="assets/img/mars/mars.png"
         alt="Mars planet sliced"
-        width="650"
-        height="250"
+        width="450"
+        height="450"
       />
+    </div>
       <p>
         The average surface temperature is around <em>-80</em> degrees
         Fahrenheit (<em>-60</em> degrees Celsius), ranging from -195 degrees
@@ -222,8 +227,8 @@
         its geological history
       </p>
     </section>
-    <section>
-      <h2>Jupiter</h2>
+    <section class="jupiter-section">
+      <h2 class="jupiter-title">Jupiter</h2>
       <p>
         Jupiter, the <b>largest planet in our solar system</b>, has a diameter
         of about <em>139,820</em> kilometers (86,881 miles), more than 11 times
@@ -245,13 +250,16 @@
         Europa, Ganymede, and Callisto. Ganymede, the largest of these, is even
         bigger than the planet Mercury
       </p>
-      <img
-        src="assets/jupitersliced.jpg"
+      <div class="planet-img-wrapper">
+      <img class="planet-image"
+        src="assets/img/jupiter/jupiter.png"
         alt="jupiter sliced"
-        height="300"
-        width="500
+        height="400"
+        width="400
       "
       />
+      </div>
+
       <p>
         Temperatures at the cloud tops are around <em>-145</em> degrees Celsius
         (-234 degrees Fahrenheit), but they increase significantly with depth
@@ -263,8 +271,8 @@
         its composition, atmosphere, magnetosphere, and extensive moon system.
       </p>
     </section>
-    <section>
-      <h2>Saturn</h2>
+    <section class="saturn-section">
+      <h2 class="saturn-title">Saturn</h2>
       <p>
         Saturn, the <b>sixth planet from the Sun</b>, is well known for its
         stunning ring system. With a diameter of about 116,460 kilometers
@@ -285,12 +293,14 @@
           10 meters (30 feet) thick in some places.</em
         >
       </p>
-      <img
-        src="assets/Saturn_core_wobble.avif"
+      <div class="planet-img-wrapper">
+      <img class="planet-img"
+        src="assets/img/saturn/saturn.png"
         alt="Saturn sliced"
         width="500"
         height="300"
       />
+    </div>
       <p>
         <b> Saturn has at least 83 known moons</b>, with <em>Titan</em> being
         the largest. <b>Titan is larger than the planet Mercury</b> and is
@@ -308,5 +318,84 @@
         compression of its
       </p>
     </section>
+    <section class="uranus-section">
+      <h2 class="uranus-title">Uranus</h2>
+      <p>
+        <b>Uranus, the seventh planet from the Sun</b>, is an
+        <em>ice giant</em> with a diameter of about <em>50,724</em> kilometers
+        (31,518 miles), making it the
+        <b>third-largest planet in our solar system.</b> Unlike the gas giants
+        Jupiter and Saturn, Uranus is composed mainly of hydrogen and helium,
+        but it also contains significant amounts of water, ammonia, and methane
+        ice, giving it a <em>bluish-green color</em>. This coloration is due to
+        methane in the upper atmosphere, which absorbs red light and reflects
+        blue light.
+      </p>
+      <p>
+        One of the most unusual features of Uranus is its extreme axial tilt of
+        about <b>98</b> degrees, meaning it essentially rotates on its side.
+        This unique tilt results in extreme seasonal variations, with each pole
+        getting around 42 years of continuous sunlight followed by
+        <b>42 years of darkness as the planet orbits the Sun</b>,
+        <b>taking about 84 Earth years to complete one orbit.</b>
+      </p>
+      <div class="planet-img-wrapper">
+      <img class="planet-img"
+        src="assets/img/uranus/uranus.png"
+        alt="Uranus sliced"
+        width="450"
+        height="450"
+      />
+    </div>
+      <p>
+        Uranus has a <b>faint ring system composed of dark</b>, narrow rings
+        made primarily of ice particles and rocky debris. The planet also has a
+        complex magnetic field, which is tilted at an angle of about
+        <em>59 degrees</em>
+        relative to its rotational axis and offset from the planet's center,
+        creating a highly irregular magnetosphere.
+      </p>
+      <p>
+        Uranus has at least <b>27</b> known moons, with the largest ones being
+        Titania, Oberon, Umbriel, Ariel, and Miranda. These moons vary greatly
+        in size and geological features, with some showing evidence of past
+        geological activity.
+      </p>
+    </section>
+    <section class="neptune-section">
+      <h2 class="neptune-title">Neptune</h2>
+      <p>
+        <b></b>Neptune, the eighth and farthest known planet from the Sun in our solar
+        system</b>, is an ice giant similar to Uranus. It has a diameter of about
+        <em>49,244</em> kilometers (30,598 miles), making it slightly smaller than
+        Uranus. Neptune's atmosphere is composed primarily of hydrogen and
+        helium, with significant amounts of water, ammonia, and methane. The
+        methane in its atmosphere gives Neptune its striking <b>blue color by
+        absorbing red light and reflecting blue light</b>.
+      </p>
+      <p>
+        <em>Neptune is known for its dynamic and active weather systems.</em> It has the
+        fastest winds in the solar system, reaching speeds of up to 2,100
+        kilometers per hour (1,300 miles per hour). The planet's most notable
+        storm system is the Great Dark Spot, similar to Jupiter's Great Red
+        Spot, though it appears and disappears over time. Neptune also has
+        <b>visible clouds of methane ice.</b>
+      </p>
+      <div class="planet-img-wrapper">
+      <img class="planet-img" src="assets/img/neptune/neptune.png" alt="Neptune sliced" width="450" height="450"/>
+    </div>
+      <p>
+        Neptune has a tilted axis of about <em>28.3</em> degrees, resulting in seasons
+        due to its long orbital period. The planet takes approximately 165 Earth
+        years to complete one orbit around the Sun.
+      </p>
+      <p>
+        Neptune has a faint ring system made up of dark, narrow rings composed
+        of ice particles mixed with dust grains and other small debris. <b>These
+        rings are divided into five main segments</b>, named after astronomers who
+        made significant contributions to the study of Neptune.
+      </p>
+    </section>
+  </div>
   </body>
 </html>
