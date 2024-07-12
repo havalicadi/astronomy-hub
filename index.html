@@ -23,17 +23,18 @@
         <strong>the stars</strong> .
       </p>
       <img
-        src="assets/galaxy.jpg"
+        src="assets/img/galaxy.jpg"
         alt="man standing by the tree and looking at
       night sky"
         height="250"
         width="500"
-      />s
+      />
     </section>
     <section>
       <h2>Planets in solar system</h2>
       <ol>
         <li>
+          <a href="#mercury-section">
           <p>Mercury</p>
           <img
             src="assets/img/mercury/mercury-mini.jpg"
@@ -41,39 +42,55 @@
             width="75"
             height="75"
           />
+        </a>
         </li>
         <li>
-          <p>Venus</p>
-          <img src="assets/img/venus/venus-mini.jpg" alt="Venus" height="75" width="75" />
+          <a href="#venus-section">  
+             <p>Venus</p>
+            <img src="assets/img/venus/venus-mini.jpg" alt="Venus" height="75" width="75" />
+          </a>
         </li>
         <li>
+          <a href="#earth-section">
           <p>Earth</p>
           <img src="assets/img/earth/earth-mini.jpg" alt="Earth" height="75" width="75" />
+        </a>
         </li>
+
         <li>
+          <a href="#mars-section">
           <p>Mars</p>
           <img src="assets/img/mars/mars-mini.jpg" alt="Mars" height="75" width="75" />
+        </a>
         </li>
         <li>
+          <a href="#jupiter-section">
           <p>Jupiter</p>
           <img src="assets/img/jupiter/jupiter-mini.jpg" alt="Jupiter" height="75" width="75" />
+        </a>
         </li>
         <li>
+          <a href="#saturn-section">
           <p>Saturn</p>
           <img src="assets/img/saturn/saturn-mini.jpg" alt="Saturn" height="75" width="100">
+        </a>
         </li>
         <li>
+          <a href="#uranus-section">
           <p>Uranus</p>
           <img src="assets/img/uranus/uranus-mini.jpg" alt="Uranus" height="75" width="75" />
+        </a>
         </li>
         <li>
+          <a href="#neptune-section">
           <p>Neptune</p>
-          <img src="assets/img/neptune/neptune-mini.jpg" alt="Neptune" height="75" width="75" />
+        <img src="assets/img/neptune/neptune-mini.jpg" alt="Neptune" height="75" width="75" />
+        </a>
         </li>
       </ol>
     </section>
-    <section class="mercury-section">
-      <h2 class="mercury-title">Mercury</h2>
+    <section id="mercury-section" class="mercury-section">
+      <h2 class="title">Mercury</h2>
       <p>
         Mercury, the <b>smallest</b> planet in our solar system with a diameter
         of about 4,880 kilometers (3,032 miles), is the closest to the Sun,
@@ -90,12 +107,14 @@
         surface, heavily cratered and resembling the Moon, includes the large
         Caloris Basin.
       </p>
-      <img
+      <div class="planet-img-wrapper">
+      <img 
         src="assets/img/mercury/mecury.png"
         alt="Mercury structure"
         height="400"
         width="400"
       />
+    </div>
       <p>
         Despite its small size, Mercury has a magnetic field about
         <b>1%</b> as strong as Earth's and is the second densest planet in the
@@ -107,8 +126,9 @@
         >
       </p>
     </section>
-    <section class="venus-section">
-      <h2 class="venus-title">Venus</h2>
+    
+    <section id="venus-section" class="venus-section">
+      <h2 class="title">Venus</h2>
       <p>
         Venus, often called Earth's <b>"sister planet,"</b> is similar in size
         to Earth, with a diameter of about <em>12,104</em> kilometers (7,521
@@ -129,7 +149,7 @@
         Earth's Moon, with volcanic features and vast plains.
       </p>
       <div class="planet-img-wrapper">
-      <img class="planet-img"
+      <img 
         src="assets/img/venus/venus.png"
         alt="venus"
         width="650"
@@ -146,8 +166,8 @@
         >
       </p>
     </section>
-    <section class="earth-section">
-      <h2 class="earth-title">Earth</h2>
+    <section id="earth-section" class="earth-section">
+      <h2 class="title">Earth</h2>
       <p>
         Earth, approximately <b>4.54 billion years old</b>, has a diameter of
         about <em>12,742</em> kilometers (7,918 miles) and a circumference of
@@ -172,7 +192,7 @@
         the Sun every <em>365.25 days</em>, defining a year.
       </p>
       <div class="planet-img-wrapper">
-      <img class="planet-img"
+      <img 
         src="assets/img/earth/earth.png"
         alt="Earth Planet"
       />
@@ -185,8 +205,8 @@
         essential for life.
       </p>
     </section>
-    <section class="mars-section">
-      <h2 class="mars-title">Mars</h2>
+    <section id="mars-section" class="mars-section">
+      <h2 class="title">Mars</h2>
       <p>
         Mars, known as the "<b>Red Planet</b>," is the fourth planet from the
         Sun and has a diameter of about <em>6,779</em> kilometers (4,212 miles),
@@ -209,7 +229,7 @@
         moons, <b>Phobos and Deimos</b>, believed to be captured asteroids.
       </p>
      <div class="planet-img-wrapper">
-      <img class="planet-img"
+      <img 
         src="assets/img/mars/mars.png"
         alt="Mars planet sliced"
         width="450"
@@ -227,8 +247,8 @@
         its geological history
       </p>
     </section>
-    <section class="jupiter-section">
-      <h2 class="jupiter-title">Jupiter</h2>
+    <section id="jupiter-section" class="jupiter-section">
+      <h2 class="title">Jupiter</h2>
       <p>
         Jupiter, the <b>largest planet in our solar system</b>, has a diameter
         of about <em>139,820</em> kilometers (86,881 miles), more than 11 times
@@ -251,7 +271,7 @@
         bigger than the planet Mercury
       </p>
       <div class="planet-img-wrapper">
-      <img class="planet-image"
+      <img 
         src="assets/img/jupiter/jupiter.png"
         alt="jupiter sliced"
         height="400"
@@ -271,8 +291,8 @@
         its composition, atmosphere, magnetosphere, and extensive moon system.
       </p>
     </section>
-    <section class="saturn-section">
-      <h2 class="saturn-title">Saturn</h2>
+    <section id="saturn-section" class="saturn-section">
+      <h2 class="title">Saturn</h2>
       <p>
         Saturn, the <b>sixth planet from the Sun</b>, is well known for its
         stunning ring system. With a diameter of about 116,460 kilometers
@@ -294,7 +314,7 @@
         >
       </p>
       <div class="planet-img-wrapper">
-      <img class="planet-img"
+      <img 
         src="assets/img/saturn/saturn.png"
         alt="Saturn sliced"
         width="500"
@@ -318,8 +338,8 @@
         compression of its
       </p>
     </section>
-    <section class="uranus-section">
-      <h2 class="uranus-title">Uranus</h2>
+    <section id="uranus-section" class="uranus-section">
+      <h2 class="title">Uranus</h2>
       <p>
         <b>Uranus, the seventh planet from the Sun</b>, is an
         <em>ice giant</em> with a diameter of about <em>50,724</em> kilometers
@@ -340,7 +360,7 @@
         <b>taking about 84 Earth years to complete one orbit.</b>
       </p>
       <div class="planet-img-wrapper">
-      <img class="planet-img"
+      <img 
         src="assets/img/uranus/uranus.png"
         alt="Uranus sliced"
         width="450"
@@ -362,8 +382,8 @@
         geological activity.
       </p>
     </section>
-    <section class="neptune-section">
-      <h2 class="neptune-title">Neptune</h2>
+    <section id="neptune-section" class="neptune-section">
+     <h2 class="title">Neptune</h2>
       <p>
         <b></b>Neptune, the eighth and farthest known planet from the Sun in our solar
         system</b>, is an ice giant similar to Uranus. It has a diameter of about
@@ -382,7 +402,7 @@
         <b>visible clouds of methane ice.</b>
       </p>
       <div class="planet-img-wrapper">
-      <img class="planet-img" src="assets/img/neptune/neptune.png" alt="Neptune sliced" width="450" height="450"/>
+      <img  src="assets/img/neptune/neptune.png" alt="Neptune sliced" width="450" height="450"/>
     </div>
       <p>
         Neptune has a tilted axis of about <em>28.3</em> degrees, resulting in seasons

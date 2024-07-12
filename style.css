@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -31,20 +40,16 @@ h2 {
   color: #228392;
 }
 
-.mercury-title {
-  color: #8a7777;
-}
-
 .mercury-section {
   padding: 40px;
   border-top: 7px solid #8a7777;
   border-bottom: 7px solid #8a7777;
   margin-bottom: 20px;
   background-color: #8a777744;
-}
 
-.venus-title {
-  color: orange;
+  .title {
+    color: #8a7777;
+  }
 }
 
 .venus-section {
@@ -53,10 +58,10 @@ h2 {
   border-bottom: 7px solid #ffa500;
   background-color: #ffa6005d;
   margin-bottom: 20px;
-}
 
-.earth-title {
-  color: #0000ff;
+  .title {
+    color: orange;
+  }
 }
 
 .earth-section {
@@ -65,10 +70,10 @@ h2 {
   border-bottom: 7px solid #0000ff;
   margin-bottom: 20px;
   background-color: #0000ff18;
-}
 
-.mars-title {
-  color: #ff4500;
+  .title {
+    color: #0000ff;
+  }
 }
 
 .mars-section {
@@ -77,10 +82,10 @@ h2 {
   border-bottom: 7px solid #ff4500;
   margin-bottom: 20px;
   background-color: #ff44004d;
-}
 
-.jupiter-title {
-  color: #9e6919;
+  .title {
+    color: #ff4500;
+  }
 }
 
 .jupiter-section {
@@ -89,10 +94,10 @@ h2 {
   border-bottom: 7px solid #9e6919;
   margin-bottom: 20px;
   background-color: #9e691946;
-}
 
-.saturn-title {
-  color: #ac825f;
+  .title {
+    color: #9e6919;
+  }
 }
 
 .saturn-section {
@@ -101,10 +106,10 @@ h2 {
   border-bottom: 7px solid #ac825f;
   margin-bottom: 20px;
   background-color: #ac825f3a;
-}
 
-.uranus-title {
-  color: #40a7b4;
+  .title {
+    color: #ac825f;
+  }
 }
 
 .uranus-section {
@@ -113,10 +118,10 @@ h2 {
   border-bottom: 7px solid #40a7b4;
   margin-bottom: 20px;
   background-color: #40a7b428;
-}
 
-.neptune-title {
-  color: #0000ff;
+  .title {
+    color: #40a7b4;
+  }
 }
 
 .neptune-section {
@@ -125,15 +130,28 @@ h2 {
   border-bottom: 7px solid #0000ff;
   margin-bottom: 20px;
   background-color: #0000ff46;
-}
 
-.planet-img {
-  height: 100%;
-  width: 100%;
+  .title {
+    color: #0000ff;
+  }
 }
 
 .planet-img-wrapper {
   height: 50%;
   width: 50%;
   margin: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+ol {
+  display: grid;
+  grid-auto-flow: column;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 20px; /* Adjust spacing as needed */
 }
